@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    color: #333;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+p {
+    color: #3E3E3E;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 1em 0;
+}
+
+.special-color {
+    color: purple;
+}
+
+#focus {
+    padding-left: 10px;
+    border-left: 5px solid crimson;
+}
+
+.btn {
+    color: #fff;
+    font-weight: 500px;
+    background-image: linear-gradient(red, purple);
+    border-radius: 5px;
+    padding: 8px 12px;
+    transition: all ease-in-out 0.3;
+}
+
+.btn:hover {
+    color: #000;
+    background-image: linear-gradient(green, yellow);
+}
+
+#top-banner {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    height: 623px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E5E5;
+}
+
+.flexible {
+    width: 50%;
+}
+
+.profile-photo {
+    width: 70%;
+    height: 80%;
+}
