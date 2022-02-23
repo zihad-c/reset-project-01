@@ -6,6 +6,7 @@
 }
 
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -56,11 +57,10 @@ p {
 
 #top-banner {
     margin: 0 auto;
-    padding: 0 20px;
     width: 100%;
     height: 623px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: #E5E5E5;
 }
@@ -72,4 +72,83 @@ p {
 .profile-photo {
     width: 70%;
     height: 80%;
+}
+
+#mission {
+    width: 100%;
+}
+
+#mission h2 {
+    text-align: center;
+}
+
+.mission-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-container img {
+    height: 140px;
+    width: 140px;
+}
+
+.mission-item {
+    width: 360px;
+    height: 376px;
+    padding: 30px;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.mission {
+    background-color: #4F9DA61A;
+}
+
+.vision {
+    background-color: #FF59591A;
+}
+
+.goals {
+    background-color: #FFF4D6;
+}
+
+#develop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#develop-photo {
+    width: 50%;
+}
+
+.develop-photo,
+.community-photo {
+    width: 50%;
+    height: 60%;
+}
+
+#community {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#community-photo {
+    width: 50%;
+}
+
+section {
+    margin: 100px 0;
+    padding: 0 100px;
 }
